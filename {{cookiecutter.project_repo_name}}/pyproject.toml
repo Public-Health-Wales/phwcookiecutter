@@ -3,12 +3,12 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = {{cookiecutter.project_repo_name}}
+name = "{{cookiecutter.project_repo_name}}"
 version = "0.0.1"
 authors = [
-  {email = {{cookiecutter.contact_email}}},
+  {email = "{{cookiecutter.contact_email}}"},
 ]
-description = {{cookiecutter.project_description}}
+description = "{{cookiecutter.project_description}}"
 dynamic = ["dependencies"]
 
 [tool.setuptools.dynamic]
