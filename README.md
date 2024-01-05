@@ -26,6 +26,7 @@ This is a template repo for Python based projects in PHW.
     - tests folder for tests
     - Folders currently contain examples (which should be removed).
   - pyproject.toml as required to make into a versioned, installable package
+  - A standard .gitignore file
   - Setup for precommit hooks covering running tests, linting, basic security checks
   - Issue and pull request templates for use on GitHub 
   - A GitHub Action for linting and testing
