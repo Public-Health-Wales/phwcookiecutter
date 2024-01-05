@@ -1,7 +1,7 @@
 {
     "project_name": "Your new project name",
     "project_repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "project_description": "Brief project project_description",
+    "project_description": "Brief project description",
     "project_team": "Project team name e.g. DKR Data Science",
     "contact_email": "Project contact email address"
 }
