@@ -15,6 +15,7 @@ This is a template repo for Python based projects in PHW.
 - Commit the repo set up.
 - Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
+- Follow the instructions in CONTRIBUTING.md to continue developing. 
   
 # What does this do? 
 
