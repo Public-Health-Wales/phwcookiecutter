@@ -83,14 +83,12 @@ Merge the PR using the button on GitHub.
 
 ## Testing
 
-[Tests are written using the `pytest` framework](https://pypi.org/project/pytest/
-). 
-
 ### Writing pytests
 
-Tests are stored in the `tests` folder. For pytest to find a test, all test files and tests must start with `test_` or finish with `_test.py`. 
-
 Aim to add tests when adding new functionality. 
+
+[Tests use the `pytest` framework](https://pypi.org/project/pytest/
+). Tests are stored in the `tests` folder. For pytest to find a test, all test files and tests must start with `test_` or finish with `_test.py`. 
 
 ## Running pytests
 
