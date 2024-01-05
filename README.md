@@ -4,13 +4,13 @@ This is a template repo for Python based projects in PHW.
 
 # Quickstart - set up a repo using this template
 
-- [install the cookiecutter package](https://cookiecutter.readthedocs.io/en/stable/README.html#installation)
+- [install the cookiecutter package](https://cookiecutter.readthedocs.io/en/stable/README.html#installation). Note it is usual to work in a virtual environment when installing Python packages.
 - In your Command Prompt/Terminal, navigate to the folder where you want to create your project and run `python -m cookiecutter https://{YOUR_PERSONAL_ACCESS_TOKEN}@github.com/Public-Health-Wales/phwcookiecutter.git`
 - Enter the details requested.
 - Navigate to the newly created repository.
 - Run `git init` to initialise it as a git repo. 
-- Install tools to support the install: `python -m pip install -U pip setuptools`. Note it is usual to work in a virtual environment when installing Python packages.
-- Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code. 
+- Install tools to support the install: `python -m pip install -U pip setuptools`. Again, note it is usual to work in a virtual environment when installing Python packages.
+- Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code.  Again, note it is usual to work in a virtual environment when installing Python packages.
 - Install the pre-commit hooks: `pre-commit install`
 - Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
