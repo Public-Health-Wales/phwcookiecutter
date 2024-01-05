@@ -11,7 +11,7 @@ This is a template repo for Python based projects in PHW.
 - Run `git init` to initialise it as a git repo. 
 - Install tools to support the install: `python -m pip install -U pip setuptools`. Again, note it is usual to work in a virtual environment when installing Python packages.
 - Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code.  Again, note it is usual to work in a virtual environment when installing Python packages.
-- Install the pre-commit hooks: `pre-commit install`
+- Install the pre-commit hooks: `pre-commit install`. Sometimes there can be errors in this step - to follow up.
 - Commit the repo set up.
 - Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
