@@ -32,5 +32,5 @@ This is a template repo for Python based projects in PHW.
   - Setup for precommit hooks covering running tests, linting, basic security checks
   - Issue and pull request templates for use on GitHub 
   - A GitHub Action for linting and testing
-  - Version and release management using `bump2version`
+  - Version and release management using `bump-my-version`
   

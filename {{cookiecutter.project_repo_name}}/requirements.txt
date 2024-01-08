@@ -1,2 +1,2 @@
 pre-commit
-bump2version
+bump-my-version
