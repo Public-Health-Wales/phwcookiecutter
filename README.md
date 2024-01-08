@@ -15,6 +15,7 @@ This is a template repo for Python based projects in PHW.
 - Commit the repo set up. Note that if the pre-commit hooks have been set up, linting may reveal some issues which the hooks auto-correct. You may therefore need to stage any automatically made changes and try the commit a second time. 
 - Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
+- Add your collaborators to the repo with an appropriate level of access. Find this option in repo settings on GitHub. 
 - Follow the instructions in CONTRIBUTING.md to continue developing. 
   
 # What does this do? 
@@ -33,4 +34,3 @@ This is a template repo for Python based projects in PHW.
   - Issue and pull request templates for use on GitHub 
   - A GitHub Action for linting and testing
   - Version and release management using `bump-my-version`
-  
