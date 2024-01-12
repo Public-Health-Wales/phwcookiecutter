@@ -30,6 +30,7 @@ This is a template repo for Python based projects in PHW.
     - Folders currently contain examples (which should be removed).
   - pyproject.toml as required to make into a versioned, installable package
   - A standard .gitignore file
+  - An empty config.ini file. This should not be committed or pushed (and is in the .gitignore). Use this for aspects of config such as file paths. The config file should live in the root directory to avoid confusion with multiple versions. 
   - Setup for precommit hooks covering running tests, linting, basic security checks
   - Issue and pull request templates for use on GitHub 
   - A GitHub Action for linting and testing
