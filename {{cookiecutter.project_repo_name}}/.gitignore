@@ -191,6 +191,24 @@ cython_debug/
 **/*.tar
 **/*.xml
 
+# Images ==============================================================================
+# Tend to be large to add and easy to recreate
+**/*.ai
+**/*.bmp
+**/*.gif
+**/*.ico
+**/*.jpeg
+**/*.jpg
+**/*.png
+**/*.ps
+**/*.psd
+**/*.svg
+**/*.tif
+**/*.tiff
+
+# Config====================================================================
+config.ini
+
 # Other==============================
 .nocommitstrings
 
