@@ -9,6 +9,10 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+      - id: strings-to-avoid
+        name: strings-to-avoid
+        entry: python check_strings.py
+        language: system
   - repo: https://github.com/kynan/nbstripout
     rev: 0.4.0
     hooks:

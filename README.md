@@ -12,6 +12,7 @@ This is a template repo for Python based projects in PHW.
 - Install tools to support the install: `python -m pip install -U pip setuptools`. Again, note it is usual to work in a virtual environment when installing Python packages.
 - Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code.  Again, note it is usual to work in a virtual environment when installing Python packages.
 - Install the pre-commit hooks: `pre-commit install`. Sometimes there can be errors in this step - to follow up.
+- Add any strings you want to check commits for to `.nocommitstrings` (one line per string, no quotation marks). Take care not to commit this file (it is covered by the `.gitignore`). Note pre-commit hooks can be turned off or not run so (as with the secret detection pre-commit hook), this is an extra layer of safety rather than something that should be relied on inn itself to prevent secrets being committed. 
 - Commit the repo set up. Note that if the pre-commit hooks have been set up, linting may reveal some issues which the hooks auto-correct. You may therefore need to stage any automatically made changes and try the commit a second time. 
 - Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
