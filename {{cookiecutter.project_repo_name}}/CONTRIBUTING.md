@@ -23,7 +23,7 @@ contributors should also install the [pre-commit hooks](https://pre-commit.com/)
 contributing, open your terminal and install the package and pre-commit hooks using:
     ```shell
     pip install -e .
-    pre-commit install
+    python -m pre_commit install
     ```
 
 Pre-commit hooks are actions which are run automatically, typically
