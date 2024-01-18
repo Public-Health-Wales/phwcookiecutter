@@ -18,20 +18,20 @@ repos:
     hooks:
       - id: nbstripout
         name: nbstripout - Strip outputs from notebooks (auto-fixes)
-        args:
-          - --extra-keys
-          - "metadata.colab metadata.kernelspec cell.metadata.colab cell.metadata.executionInfo cell.metadata.id cell.metadata.outputId"
+        entry: python -m nbstripout --extra-keys metadata.colab metadata.kernelspec cell.metadata.colab cell.metadata.executionInfo cell.metadata.id cell.metadata.outputId
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
       - id: check-added-large-files
         name: Check for files larger than 5 MB
-        args: [ "--maxkb=5120" ]
+        entry: python -m pre_commit_hooks.check_added_large_files --maxkb=5120
       - id: end-of-file-fixer
         name: Check for a blank line at the end of scripts (auto-fixes)
         exclude: '\.Rd'
+        entry: python -m pre_commit_hooks.end_of_file_fixer
       - id: trailing-whitespace
         name: Check for trailing whitespaces (auto-fixes)
+        entry: python -m pre_commit_hooks.trailing_whitespace_fixer
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
@@ -66,3 +66,4 @@ repos:
     hooks:
       - id: detect-secrets
         name: detect-secrets - Detect secrets in staged code
+        entry: python -m detect_secrets.pre_commit_hook --base64-limit=4
