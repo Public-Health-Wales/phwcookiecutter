@@ -14,7 +14,7 @@ This is a template repo for Python based projects in PHW.
 
 - Many of these steps will involve installing Python packages. It is usual to work in a virtual environment when installing Python packages (e.g. conda/pip). Set up an environment to work in as you usually would.
 - [Install the cookiecutter package](https://cookiecutter.readthedocs.io/en/stable/README.html#installation): `python -m pip install --user cookiecutter`.
-- In your Command Prompt/Terminal, navigate to the folder where you want to create your project and run `python -m cookiecutter https://github.com/Public-Health-Wales/phwcookiecutter.git`. You need to substitute your personal access token into this command but you do not need to make any other changes. 
+- In your Command Prompt/Terminal, navigate to the folder where you want to create your project and run `python -m cookiecutter https://github.com/Public-Health-Wales/phwcookiecutter.git`. If you are asked about whether it is okay to delete and re-download the cookiecutter, say yes. 
 - Enter the details requested to set up the repo.
 - Navigate to the newly created repository.
 - Run `git init` to initialise it as a git repo. 
