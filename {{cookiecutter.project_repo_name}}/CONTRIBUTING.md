@@ -25,12 +25,7 @@ contributing, open your terminal and install the package and pre-commit hooks us
     pip install -e .
     python -m pre_commit install
     ```
-
-Pre-commit hooks are actions which are run automatically, typically
-on each commit, to perform some common set of tasks.
-
-Pre-commit hooks are a security feature to reduce (but not eliminate) 
-the risk that certain secrets, large data files, and Jupyter notebook outputs are accidentally committed into the repository. The pre-commit hooks on this repo also help ensure code quality by running various linting checks and running the package's automated test suite.
+Read more about pre-commit hooks [below](#pre-commit-hooks). 
 
 
 1. **Check out a new branch for your changes:**
@@ -97,3 +92,11 @@ To run pytests in your terminal, run:
 pytest
 ```
 in your root directory.
+
+## Pre-commit hooks
+
+Pre-commit hooks are actions which are run automatically, typically
+on each commit, to perform some common set of tasks. Pre-commit hooks are a security feature to reduce (but not eliminate) 
+the risk that certain secrets, large data files, and Jupyter notebook outputs are accidentally committed into the repository. The pre-commit hooks on this repo also help ensure code quality by running various linting checks and running the package's automated test suite.
+
+Sometimes you may want to turn off a pre-commit hook temporarily (for example, if it takes a long time). You can do this [by setting the SKIP environment variable](https://pre-commit.com/#temporarily-disabling-hooks) e.g. set SKIP=the_hook_i_want_to_skip. 
