@@ -222,6 +222,8 @@ rsconnect/
 # Some credit to the internet (e.g. https://www.computerhope.com/issues/ch001789.htm#database)
 # General
 **/*.csv
+**/*.feather
+**/*.parquet
 # R
 **/*.RDS
 **/*.rds
@@ -233,6 +235,8 @@ rsconnect/
 # Excel
 **/*.xlsx
 **/*.xls
+# Python 
+**/*.pickle
 # Misc
 **/*.dat
 **/*.db
