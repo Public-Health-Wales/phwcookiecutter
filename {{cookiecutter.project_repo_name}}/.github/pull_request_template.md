@@ -26,3 +26,34 @@ In addition, the proposer should check the following before merge:
 - [ ] [ONLY CHECK DIRECTLY BEFORE MERGE] The tag associated with the version bump has been pushed to GitHub.
 
 If this checklist does not make sense, please see the [contributing guidelines](CONTRIBUTING.md). It is not an exhaustive list but intended to prevent common omissions.
+
+-----------
+# Materion
+
+Yn Penderfynu [CYSYLLTU Â MATERION I'W CAU TRWY GYFUNO’R PR (Pull Request) HWN - SYLWCH Y BYDD HWN YN CYSYLLTU AC YN CAU’R MATER HWN YN AWTOMATIG WRTH GYFUNO]
+
+Cyfeiriadau [CYSYLLTU Â MATERION A GYFEIRIWYD ATYNT OND SYDD HEB EU CAU GAN Y PR HWN], ond ni ellir cau'r materion hyn.
+
+# Nodiadau
+
+- [UNRHYW WYBODAETH YCHWANEGOL SYDD EI HANGEN ER MWYN DEALL Y PR]
+- [UNRHYW BETH NA LWYDDWYD I FYND I’R AFAEL AG EF]
+- [UNRHYW BETH Y DYLAI ADOLYGWYR GANOLBWYNTIO ARNO]
+
+# Rhestr wirio
+
+Dylai adolygydd y cod wirio bod y meini prawf derbyn o'r materion cysylltiedig wedi'u cyflawni.
+
+Yn ogystal, dylai’r cynigydd wirio’r canlynol cyn cyfuno:
+- [ ] Bod y profion wedi cael eu rhedeg trwy GitHub Actions a’u bod wedi pasio.
+- [ ] Os mai atgyweirio byg neu wneud newid sylweddol i'r cod yw diben y PR, bod profion newydd wedi’u cynnwys lle bo'n briodol.
+- [ ] Bod dogfennau wedi'u diweddaru i adlewyrchu newidiadau i'r cod sy'n wynebu defnyddwyr.
+- [ ] Os yw’r PR yn gwneud newidiadau i ddogfennaeth, ei fod wedi'i adeiladu a'i weld yn lleol i wirio fformatio.
+- [ ] Os oes ffeiliau yn yr ystorfa sy’n cael eu disodli gan y PR hwn, sicrhau eu bod yn cael eu dileu.
+- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r fersiwn diweddaraf o'r brif gangen (main) wedi'i chyfuno â'r gangen nodwedd yn lleol.
+- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r log newidiadau wedi'i ddiweddaru gyda disgrifiad o'r hyn sydd wedi newid yn y fersiwn rhyddhau.
+- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r ciplun (commit) olaf cyn cyfuno yn giplun awtomatig o bump-my-version.
+- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r tag sy'n gysylltiedig â'r “version bump” wedi'i gyflwyno i GitHub.
+
+Os nad yw'r rhestr wirio hon yn gwneud synnwyr, gweler y [canllawiau cyfrannu](CONTRIBUTING_cy.md). Nid yw'n rhestr hollgynhwysfawr, mae wedi'i bwriadu i atal hepgoriadau cyffredin.
+
