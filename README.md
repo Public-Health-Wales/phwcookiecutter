@@ -7,6 +7,12 @@ This is a template repo for Python based projects in PHW.
 - To develop your own cookiecutter based on this one, [fork this repo](https://github.com/Public-Health-Wales/phwcookiecutter/fork).
 - To suggest changes or fixes to this cookiecutter, [add an issue](https://github.com/Public-Health-Wales/phwcookiecutter/issues) or [contact the maintainers](mailto:phw.dkrdatascience@wales.nhs.uk). 
 
+# Language 
+
+Natural language user-facing text in this software repository is available bilingually Cymraeg-English. If any user-facing text is not bilingual, please let us know by submitting an issue or contacting us at the contact email address.
+As a software repository, this repository may contain content in programming languages or other computer-readable formats. This will always remain in its original form. Comments embedded in code will also remain in the language used by the developer. The LICENSE document is a standard legal document, not produced within NHS Wales, and is only available in English. Filenames and filepaths which use industry-standard conventions (e.g. README.md) may be in English. 
+
+The main branch is the public facing version of the repository. In development of an open source repo, other branches may be created, by the original developers or other contributors. Until changes are accepted, by means of merging into main, natural language content may be in any language used by the developer.  
 
 # Quickstart - set up a repo using this template
 
@@ -20,7 +26,7 @@ This is a template repo for Python based projects in PHW.
 - Run `git init` to initialise it as a git repo. 
 - Install tools to support the install: `python -m pip install -U pip setuptools`. 
 - Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code.  Again, note it is usual to work in a virtual environment when installing Python packages.
-- Install the pre-commit hooks: `python -m pre_commit install`. This step can be a bit fussy with respect to how things are installed and set up - please report any problem.s
+- Install the pre-commit hooks: `python -m pre_commit install`. This step can be a bit fussy with respect to how things are installed and set up - please report any problems.
 - Add any strings you want to check commits for to `.nocommitstrings` (one line per string, no quotation marks). Take care not to commit this file (it is covered by the `.gitignore`). Note pre-commit hooks can be turned off or not run so (as with the secret detection pre-commit hook), this is an extra layer of safety rather than something that should be relied on in itself to prevent secrets being committed.
 - `git add` ("stage") the repo set up. We like to do this manually in VS Code so that you can see the files you're adding and be doubly sure you don't commit anything you don't mean to.
 - `git commit` all the changes you have added. We like to do this from Command Prompt/Terminal, so that you can see any messages about the tests passing or failing. Note that if the pre-commit hooks have been set up, linting may reveal some issues which the hooks auto-correct. If any of the pre-commit hooks fail, you have not made a commit, and so you will need to stage any automatically made changes and try the commit a second time. 
