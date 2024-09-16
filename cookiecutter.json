@@ -1,7 +1,8 @@
 {
-    "project_name": "Your new project name/ Enw eich prosiect newydd",
+    "project_name": "Your new project name - Enw eich prosiect newydd",
     "project_repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "project_description": "Brief project description/Disgrifiad byr o'r prosiect",
-    "project_team": "Project team name e.g. DKR Data Science/Enw tîm y prosiect e.e. Gwyddor Data",
-    "contact_email": "Project contact email address/Cyfeiriad e-bost cyswllt y prosiect",
+    "project_description": "Brief project description - Disgrifiad byr o'r prosiect",
+    "project_team": "Project team name e.g. DKR Data Science - Enw tîm y prosiect e.e. Gwyddor Data",
+    "contact_email": "Project contact email address - Cyfeiriad e-bost cyswllt y prosiect",
+    "include_weekly_data_exp_log_template": "1 = Yes-Ie, 0 = No-Na"
 }
