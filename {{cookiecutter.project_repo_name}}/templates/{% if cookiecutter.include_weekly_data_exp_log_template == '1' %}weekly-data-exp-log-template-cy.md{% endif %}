@@ -1,0 +1,87 @@
+# Archwilio Data Wythnosol a Thempled Log Dadansoddi Data Archwiliadol (EDA)
+
+## 1. Gwybodaeth am y Prosiect
+- **Enw’r Prosiect:**  
+- **Wythnos yn Diweddu:**  
+- **Aelod Tîm:**  
+- **Ffynhonnell(nau) Data:** (e.e. enwau ffeiliau, dolen ar gyfer ffynhonnell agored) 
+
+---
+
+## 2. Crynodeb Wythnosol o Archwilio Data 
+- **Ffeiliau Data a Archwiliwyd: **  
+  - Ffeil 1: (e.e., `workforce_data.csv`)  
+  - Ffeil 2: (e.e., `prescribing_data.csv`)  
+
+- **Pwrpas Cyffredinol yr Archwiliad yr Wythnos Hon:**  
+   Rhestrwch y prif amcanion ar gyfer archwilio data'r wythnos
+
+---
+
+## 3. Cwestiynau a Rhagdybiaethau (Am yr Wythnos)
+- **Cwestiynau Allweddol a Godwyd:**
+  - Cwestiwn 1: 
+  - Cwestiwn 2: 
+  
+- **Rhagdybiaethau a Ffurfiwyd:**
+  - Rhagdybiaethau 1: 
+  - Rhagdybiaethau 2: 
+
+---
+
+## 4. Gweithgareddau Dadansoddi Data Archwiliadol (EDA). 
+- **Crynodeb o'r Dadansoddiad a Wnaed yr Wythnos Hon:**  
+  Disgrifiwch y camau allweddol a'r dadansoddiadau a gynhaliwyd trwy gydol yr wythnos  
+  
+- **Offer/Dulliau a Ddefnyddir:**
+  - Offeryn 1: (e.e., `Pandas' ar gyfer trin data)
+  - Offeryn 2: (e.e., `Matplotlib`ar gyfer delweddu dosbarthiad oedran)
+  
+- **cyfeiriwyd at sgriptiau Python:**
+  - Sgript 1: (e.e., `eda_workforce.py`)
+  
+  
+  (Cynhwyswch gyfeiriadau at y sgriptiau neu'r llyfrau nodiadau a ddefnyddiwyd, a lle gellir dod o hyd iddynt yn ffolder y prosiect)
+
+---
+
+## 5. Canfyddiadau a Mewnwelediadau 
+- **Canfyddiadau Allweddol o EDA yr Wythnos Hon:**
+  - Canfyddiad  1: 
+  - Canfyddiad  2: 
+
+- **Materion Ansawdd Data a Nodwyd:** 
+  - Mater  1: (e.e. "Data oedran anghyson ar draws ffeiliau")
+
+- **Argymhellion/Camau Nesaf :**
+  - Gweithred 1: (e.e., "Dilysu data oedran gyda ffynonellau gwreiddiol")  
+
+---
+
+## 6. Nodiadau Ffeil Data (Am yr Wythnos)
+- **Ffeil Data 1: `gweithlu_data.csv **
+  - ** Materion a Nodwyd:** 
+ 
+
+
+---
+
+## 7.  Nodiadau a Sylwadau Ychwanegol 
+Ychwanegwch unrhyw wybodaeth neu sylwadau perthnasol eraill o'r wythnos. 
+
+---
+
+## Confensiwn Enwi a Chyfarwyddiadau Arbed 
+
+### **Confensiwn Enwi Ffeiliau:**
+Arbedwch y ffeil hon gan ddefnyddio'r confensiwn enwi canlynol:  
+
+YYYY-MM-DD_weekly_log_[team_member_name].md
+
+
+### **Cyfarwyddiadau Arbed:**
+Cadwch y ffeil Markdown yn y gyriant cyffredin yn y lleoliad canlynol: 
+
+/data/docs/ yn y gyriant cyffredin
+
+
