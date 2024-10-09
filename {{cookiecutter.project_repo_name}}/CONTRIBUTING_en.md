@@ -69,7 +69,7 @@ and running:
     ```
 
 1. **Update the CHANGELOG:**
-Update the [changelog](CHANGELOG.md) describing the changes you have made. Follow the template format, which is based on the [keep a changelog](https://keepachangelog.com/en/1.1.0/) project.  
+Update the [changelog](CHANGELOG_en.md) describing the changes you have made. Follow the template format, which is based on the [keep a changelog](https://keepachangelog.com/en/1.1.0/) project.  
 Use the next version number that will be generated (see next point). 
 
 

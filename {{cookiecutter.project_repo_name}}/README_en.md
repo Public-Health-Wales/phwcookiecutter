@@ -10,7 +10,7 @@ The project team is {{cookiecutter.project_team}}, Public Health Wales. Reach th
 
 # Contributing 
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING_en.md](CONTRIBUTING_en.md).
 
 # Acknowledgements 
 
