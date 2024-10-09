@@ -7,13 +7,6 @@ Dyma dempled ystorfa ar gyfer prosiectau Python yn Iechyd Cyhoeddus Cymru (ICC).
 - I ddatblygu'ch cookiecutter eich hun yn seiliedig ar yr un yma, [fforchiwch (fork) yr ystorfa hon](https://github.com/Public-Health-Wales/phwcookiecutter/fork).
 - I awgrymu newidiadau neu atgyweiriadau i'r cookiecutter hwn, [ychwanegwch fater](https://github.com/Public-Health-Wales/phwcookiecutter/issues) neu [cysylltwch â'r cynhalwyr](mailto:phw.dkrdatascience@wales.nhs.uk). 
 
-# Iaith
-
-Mae testun iaith naturiol sy'n wynebu defnyddwyr yn yr ystorfa feddalwedd hon ar gael yn ddwyieithog Cymraeg-Saesneg. Os nad yw unrhyw destun sy'n wynebu defnyddwyr yn ddwyieithog, rhowch wybod i ni drwy gyflwyno mater neu gysylltu â ni trwy’r cyfeiriad e-bost cyswllt.
-Fel ystorfa feddalwedd, gall yr ystorfa hon gynnwys cynnwys mewn ieithoedd rhaglennu neu fformatau eraill y gellir eu darllen gan gyfrifiadur. Bydd y cynnwys hwn bob amser yn aros yn ei ffurf wreiddiol. Bydd sylwadau sydd wedi'u hymgorffori yn y cod hefyd yn aros yn yr iaith a ddefnyddir gan y datblygwr. Mae'r ddogfen LICENSE yn ddogfen gyfreithiol safonol, nad yw wedi'i chynhyrchu o fewn GIG Cymru, ac mae ar gael yn Saesneg yn unig. Gall enwau ffeiliau a llwybrau ffeil sy'n defnyddio confensiynau o safon diwydiant (e.e. README.md) fod yn Saesneg yn unig. 
-
-Y brif  gangen (main) yw'r fersiwn cyhoeddus o'r ystorfa. Wrth ddatblygu ystorfa ffynhonnell agored, gall y datblygwyr gwreiddiol neu gyfranwyr eraill greu canghennau eraill. Hyd nes y derbynnir newidiadau, trwy gyfuno â’r brif gangen (main), gall cynnwys iaith naturiol fod mewn unrhyw iaith a ddefnyddir gan y datblygwr.  
-
 # Canllaw cyflym - creu ystorfa trwy ddefnyddio'r templed hwn
 
 **Mae hwn yn dempled ystorfa y gellir ei ddefnyddio ar y cyd â'r pecyn cookiecutter i greu ystorfa sy'n edrych fel y templed.** Bydd rhedeg y gorchymyn cookiecutter yn defnyddio'r fersiwn o'r ystorfa hon o GitHub yn uniongyrchol, felly nid oes angen i chi glonio'r ystorfa hon oni bai eich bod am ychwanegu at y templed.
