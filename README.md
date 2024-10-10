@@ -1,54 +1,13 @@
-# phwcookiecutter 
+[README - Cymraeg](README_cy.md)
 
-This is a template repo for Python based projects in PHW. 
+[README - English](README_en.md)
 
-- To set up a repo using the template, see [Quickstart](#quickstart---set-up-a-repo-using-this-template).
-- To find out what the template contains, see [What does this do?](#what-does-this-do)
-- To develop your own cookiecutter based on this one, [fork this repo](https://github.com/Public-Health-Wales/phwcookiecutter/fork).
-- To suggest changes or fixes to this cookiecutter, [add an issue](https://github.com/Public-Health-Wales/phwcookiecutter/issues) or [contact the maintainers](mailto:phw.dkrdatascience@wales.nhs.uk). 
+## Iaith
+Mae testun iaith naturiol sy'n wynebu defnyddwyr yn yr ystorfa feddalwedd hon ar gael yn ddwyieithog Cymraeg-Saesneg. Os nad yw unrhyw destun sy'n wynebu defnyddwyr yn ddwyieithog, rhowch wybod i ni drwy gyflwyno mater neu gysylltu â ni trwy’r cyfeiriad e-bost cyswllt. Fel ystorfa feddalwedd, gall yr ystorfa hon gynnwys cynnwys mewn ieithoedd rhaglennu neu fformatau eraill y gellir eu darllen gan gyfrifiadur. Bydd y cynnwys hwn bob amser yn aros yn ei ffurf wreiddiol. Bydd sylwadau sydd wedi'u hymgorffori yn y cod hefyd yn aros yn yr iaith a ddefnyddir gan y datblygwr. Mae'r ddogfen LICENSE yn ddogfen gyfreithiol safonol, nad yw wedi'i chynhyrchu o fewn GIG Cymru, ac mae ar gael yn Saesneg yn unig. Gall enwau ffeiliau a llwybrau ffeil sy'n defnyddio confensiynau o safon diwydiant (e.e. README.md) fod yn Saesneg yn unig.
 
-# Language 
+Y brif gangen (main) yw'r fersiwn cyhoeddus o'r ystorfa. Wrth ddatblygu ystorfa ffynhonnell agored, gall y datblygwyr gwreiddiol neu gyfranwyr eraill greu canghennau eraill. Hyd nes y derbynnir newidiadau, trwy gyfuno â’r brif gangen (main), gall cynnwys iaith naturiol fod mewn unrhyw iaith a ddefnyddir gan y datblygwr.
 
-Natural language user-facing text in this software repository is available bilingually Cymraeg-English. If any user-facing text is not bilingual, please let us know by submitting an issue or contacting us at the contact email address.
-As a software repository, this repository may contain content in programming languages or other computer-readable formats. This will always remain in its original form. Comments embedded in code will also remain in the language used by the developer. The LICENSE document is a standard legal document, not produced within NHS Wales, and is only available in English. Filenames and filepaths which use industry-standard conventions (e.g. README.md) may be in English. 
+## Language
+Natural language user-facing text in this software repository is available bilingually Cymraeg-English. If any user-facing text is not bilingual, please let us know by submitting an issue or contacting us at the contact email address. As a software repository, this repository may contain content in programming languages or other computer-readable formats. This will always remain in its original form. Comments embedded in code will also remain in the language used by the developer. The LICENSE document is a standard legal document, not produced within NHS Wales, and is only available in English. Filenames and filepaths which use industry-standard conventions (e.g. README.md) may be in English.
 
-The main branch is the public facing version of the repository. In development of an open source repo, other branches may be created, by the original developers or other contributors. Until changes are accepted, by means of merging into main, natural language content may be in any language used by the developer.  
-
-# Quickstart - set up a repo using this template
-
-**This is a template repo which can be used in conjunction with the cookiecutter package to set up a repo which looks like the template.** Running the cookiecutter command will directly use the version of this repo from GitHub, so you don't need to clone this repo unless you want to add to the template. 
-
-- Many of these steps will involve installing Python packages. It is usual to work in a virtual environment when installing Python packages (e.g. conda/pip). Set up an environment to work in as you usually would.
-- [Install the cookiecutter package](https://cookiecutter.readthedocs.io/en/stable/README.html#installation): `python -m pip install --user cookiecutter`.
-- In your Command Prompt/Terminal, navigate to the folder where you want to create your project and run `python -m cookiecutter https://github.com/Public-Health-Wales/phwcookiecutter.git`. If you are asked about whether it is okay to delete and re-download the cookiecutter, say yes. 
-- Enter the details requested to set up the repo.
-- Navigate to the newly created repository.
-- Run `git init` to initialise it as a git repo. 
-- Install tools to support the install: `python -m pip install -U pip setuptools`. 
-- Install an editable version of the package: `python -m pip install -e .`. Editable means that it will change as you make updates to the code.  Again, note it is usual to work in a virtual environment when installing Python packages.
-- Install the pre-commit hooks: `python -m pre_commit install`. This step can be a bit fussy with respect to how things are installed and set up - please report any problems.
-- Add any strings you want to check commits for to `.nocommitstrings` (one line per string, no quotation marks). Take care not to commit this file (it is covered by the `.gitignore`). Note pre-commit hooks can be turned off or not run so (as with the secret detection pre-commit hook), this is an extra layer of safety rather than something that should be relied on in itself to prevent secrets being committed.
-- `git add` ("stage") the repo set up. We like to do this manually in VS Code so that you can see the files you're adding and be doubly sure you don't commit anything you don't mean to.
-- `git commit` all the changes you have added. We like to do this from Command Prompt/Terminal, so that you can see any messages about the tests passing or failing. Note that if the pre-commit hooks have been set up, linting may reveal some issues which the hooks auto-correct. If any of the pre-commit hooks fail, you have not made a commit, and so you will need to stage any automatically made changes and try the commit a second time. 
-- Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
-- Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
-- Add your collaborators to the repo with an appropriate level of access. Find this option in repo settings on GitHub. 
-- Follow the instructions in CONTRIBUTING.md to continue developing. 
-  
-# What does this do? 
-
-- Sets up a repo with:
-  - Standard README 
-  - MIT License (Public Health Wales copyright)
-  - Standard CONTRIBUTING instructions
-  - Suitable folder structure: 
-    - src folder containing package. In general, final project code or pipelines should be stored here. 
-    - tests folder for tests
-    - Folders currently contain examples (which should be removed).
-  - pyproject.toml as required to make into a versioned, installable package
-  - A standard .gitignore file
-  - An empty config.ini file. This should not be committed or pushed (and is in the .gitignore). Use this for aspects of config such as file paths. The config file should live in the root directory to avoid confusion with multiple versions. 
-  - Setup for precommit hooks covering running tests, linting, basic security checks
-  - Issue and pull request templates for use on GitHub 
-  - A GitHub Action for linting and testing
-  - Version and release management using `bump-my-version`
+The main branch is the public facing version of the repository. In development of an open source repo, other branches may be created, by the original developers or other contributors. Until changes are accepted, by means of merging into main, natural language content may be in any language used by the developer.
