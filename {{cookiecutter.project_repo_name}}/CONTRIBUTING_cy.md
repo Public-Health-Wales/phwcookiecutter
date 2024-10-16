@@ -15,12 +15,12 @@ Dechreuwch trwy fforchio'r ystorfa hon i'ch cyfrif GitHub eich hun.
 Cloniwch yr ystorfa wedi’i fforchio i'ch peiriant lleol.
 
 1.	**Gosodwch eich copi lleol o'r pecyn a'r ystorfa:**
-I weithio gyda'r pecyn yn lleol, gallwch osod fersiwn y gellir ei golygu ohono (a ddylai hefyd osod ei ddibyniaethau). Yn ogystal â gosod y pecyn fel pecyn y gellir ei olygu, dylai cyfranwyr hefyd osod y pre-commit hooks. I ddechrau cyfrannu, agorwch eich terfynell a gosodwch y pecyn a'r pre-commit hooks gan ddefnyddio:
+I weithio gyda'r pecyn yn lleol, gallwch osod fersiwn y gellir ei golygu ohono (a ddylai hefyd osod ei ddibyniaethau). Yn ogystal â gosod y pecyn fel pecyn y gellir ei olygu, dylai cyfranwyr hefyd osod y pre-commit hooks. Gallwch ddarllen mwy am pre-commit hooks [isod](#pre-commit-hooks). I ddechrau cyfrannu, agorwch eich terfynell a gosodwch y pecyn a'r pre-commit hooks gan ddefnyddio:
     ```{shell}
     pip install -e .
     python -m pre_commit install
     ```
-Gallwch ddarllen mwy am pre-commit hooks [isod](#pre-commit-hooks).
+
 
 1.	**Defnyddiwch gangen newydd ar gyfer eich newidiadau:**
 Defnyddiwch gangen newydd ar gyfer eich newidiadau bob amser. Bydd hyn yn cadw pethau'n daclus ac yn drefnus.
@@ -65,7 +65,7 @@ Cyfunwch unrhyw newidiadau ar y brif gangen â'ch cangen chi. Gallwch wneud hyn 
 Diweddarwch y [log newidiadau](CHANGELOG_cy.md) trwy nodi’r newidiadau rydych chi wedi'u gwneud. Dilynwch y fformat templed, sy'n seiliedig ar y [prosiect cadw log newidiadau].(https://keepachangelog.com/en/1.1.0/). Defnyddiwch y rhif fersiwn nesaf a gynhyrchir (gweler y pwynt nesaf).
 
 1. **Cynyddu rhif y fersiwn:**
-Mae'r ystorfa hon yn defnyddio `bump-my-version` i reoli fersiynau. Dylai'r ciplun (git commit) olaf cyn cyfuno PR (Cais Cyfuno - Pull Request) fod yn giplun wedi'i gynhyrchu'n awtomatig gan `bump-my-version`. Rhedwch `bump-my-version bump patch` (ar gyfer atgyweiriadau byg sy'n gydnaws tuag at yn ôl), `bump-my-version bump minor` (ar gyfer nodweddion newydd sy'n gydnaws tuag at yn ôl) neu `bump-my-version bump major` (ar gyfer newidiadau sy'n torri/ newidiadau API ac ati) yn yr Anogwr Gorchymyn/Terfynell (gellir `bump-my-version` hefyd gael ei ddisodli yn yr uchod gan `python -m bumpversion`, ond sicrhewch nad yw ei ragflaenwyr `bump2version` neu `bumpversion` yn cael eu gosod). Dylai hwn gael ei redeg a'i gyflwyno ar ôl i'r newidiadau eraill ar y gangen gael eu cymeradwyo ond cyn y cyfuno, fel bod y ciplun wedi'i dagio a'i fersiwn yn cynrychioli maint terfynol y newidiadau o'r gangen (gan gynnwys unrhyw ddiwygiadau a awgrymir gan adolygiad). Yn ogystal â gwthio'r ciplun olaf hwn, gwiriwch enw'r tag (e.e. v0.0.5; gallwch ddod o hyd iddo trwy redeg `git describe --tags --abbrev=0` yn yr Anogwr Gorchymyn) a gwthiwch y tag `git push origin {TAG NAME}`. I gael rhagor o wybodaeth am fersiynau, gweler ein nodiadau.
+Mae'r ystorfa hon yn defnyddio `bump-my-version` i reoli fersiynau. Dylai'r ciplun (git commit) olaf cyn cyfuno PR (Cais Cyfuno - Pull Request) fod yn giplun wedi'i gynhyrchu'n awtomatig gan `bump-my-version`. Rhedwch `bump-my-version bump patch` (ar gyfer atgyweiriadau byg sy'n gydnaws tuag at yn ôl), `bump-my-version bump minor` (ar gyfer nodweddion newydd sy'n gydnaws tuag at yn ôl) neu `bump-my-version bump major` (ar gyfer newidiadau sy'n torri/ newidiadau API ac ati) yn yr Anogwr Gorchymyn/Terfynell (gellir `bump-my-version` hefyd gael ei ddisodli yn yr uchod gan `python -m bumpversion`, ond sicrhewch nad yw ei ragflaenwyr `bump2version` neu `bumpversion` yn cael eu gosod). Dylai hwn gael ei redeg a'i gyflwyno ar ôl i'r newidiadau eraill ar y gangen gael eu cymeradwyo ond cyn y cyfuno, fel bod y ciplun wedi'i dagio a'i fersiwn yn cynrychioli maint terfynol y newidiadau o'r gangen (gan gynnwys unrhyw ddiwygiadau a awgrymir gan adolygiad). Yn ogystal â gwthio'r ciplun olaf hwn, gwiriwch enw'r tag (e.e. v0.0.5; gallwch ddod o hyd iddo trwy redeg `git describe --tags --abbrev=0` yn yr Anogwr Gorchymyn) a gwthiwch y tag `git push origin {TAG NAME}`. 
 
 1.	**Cyfuno eich PR:**
 Cyfuno'r PR gan ddefnyddio'r botwm ar GitHub.
