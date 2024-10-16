@@ -15,12 +15,12 @@ Dechreuwch trwy fforchio'r ystorfa hon i'ch cyfrif GitHub eich hun.
 Cloniwch yr ystorfa wedi’i fforchio i'ch peiriant lleol.
 
 1.	**Gosodwch eich copi lleol o'r pecyn a'r ystorfa:**
-I weithio gyda'r pecyn yn lleol, gallwch osod fersiwn y gellir ei golygu ohono (a ddylai hefyd osod ei ddibyniaethau). Yn ogystal â gosod y pecyn fel pecyn y gellir ei olygu, dylai cyfranwyr hefyd osod y pre-commit hooks. I ddechrau cyfrannu, agorwch eich terfynell a gosodwch y pecyn a'r pre-commit hooks gan ddefnyddio:
+I weithio gyda'r pecyn yn lleol, gallwch osod fersiwn y gellir ei golygu ohono (a ddylai hefyd osod ei ddibyniaethau). Yn ogystal â gosod y pecyn fel pecyn y gellir ei olygu, dylai cyfranwyr hefyd osod y pre-commit hooks. Gallwch ddarllen mwy am pre-commit hooks [isod](#pre-commit-hooks). I ddechrau cyfrannu, agorwch eich terfynell a gosodwch y pecyn a'r pre-commit hooks gan ddefnyddio:
     ```{shell}
     pip install -e .
     python -m pre_commit install
     ```
-Gallwch ddarllen mwy am pre-commit hooks [isod](#pre-commit-hooks).
+
 
 1.	**Defnyddiwch gangen newydd ar gyfer eich newidiadau:**
 Defnyddiwch gangen newydd ar gyfer eich newidiadau bob amser. Bydd hyn yn cadw pethau'n daclus ac yn drefnus.

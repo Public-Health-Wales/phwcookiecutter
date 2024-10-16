@@ -19,13 +19,13 @@ Clone the forked repository to your local machine.
 1. **Set up your local copy of the package and repo:**
 To work with the package locally, you can install an editable version of it (which
 should also install its dependencies). As well as installing the package as editable,
-contributors should also install the [pre-commit hooks](https://pre-commit.com/). To start
+contributors should also install the [pre-commit hooks](https://pre-commit.com/). Read more about pre-commit hooks [below](#pre-commit-hooks). To start
 contributing, open your terminal and install the package and pre-commit hooks using:
     ```shell
     pip install -e .
     python -m pre_commit install
     ```
-Read more about pre-commit hooks [below](#pre-commit-hooks). 
+
 
 
 1. **Check out a new branch for your changes:**
