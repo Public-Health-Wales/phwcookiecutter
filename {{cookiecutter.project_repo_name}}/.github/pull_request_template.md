@@ -38,7 +38,7 @@ Cyfeiriadau [CYSYLLTU Â MATERION A GYFEIRIWYD ATYNT OND SYDD HEB EU CAU GAN Y P
 # Nodiadau
 
 - [UNRHYW WYBODAETH YCHWANEGOL SYDD EI HANGEN ER MWYN DEALL Y PR]
-- [UNRHYW BETH NA LWYDDWYD I FYND I’R AFAEL AG EF]
+- [UNRHYW BETH NA LWYDDWYD I FYND I'R AFAEL AG EF]
 - [UNRHYW BETH Y DYLAI ADOLYGWYR GANOLBWYNTIO ARNO]
 
 # Rhestr wirio
@@ -55,7 +55,7 @@ Yn ogystal, dylai’r cynigydd wirio’r canlynol cyn cyfuno:
 - [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r fersiwn diweddaraf o'r brif gangen (main) wedi'i chyfuno â'r gangen nodwedd yn lleol.
 - [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r log newidiadau (cy/ en) wedi'i ddiweddaru gyda disgrifiad o'r hyn sydd wedi newid yn y fersiwn rhyddhau.
 - [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r ciplun (commit) olaf cyn cyfuno yn giplun awtomatig o bump-my-version.
-- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r tag sy'n gysylltiedig â'r “version bump” wedi'i gyflwyno i GitHub.
+- [ ] [GWIRIO YN UNIONGYRCHOL CYN CYFUNO] Mae'r tag sy'n gysylltiedig â'r "version bump" wedi'i gyflwyno i GitHub.
 
 Os nad yw'r rhestr wirio hon yn gwneud synnwyr, gweler y [canllawiau cyfrannu](CONTRIBUTING_cy.md). Nid yw'n rhestr hollgynhwysfawr, mae wedi'i bwriadu i atal hepgoriadau cyffredin.
 
