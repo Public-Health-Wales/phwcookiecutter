@@ -2,7 +2,7 @@
 
 {{cookiecutter.project_description}}
 
-Tîm y prosiect yw {{cookiecutter.project_team}}, Iechyd Cyhoeddus Cymru. Gallwch gysylltu â’r tîm trwy: {{cookiecutter.contact_email}}.
+Tîm y prosiect yw {{cookiecutter.project_team}}, Iechyd Cyhoeddus Cymru. Gallwch gysylltu â’r tîm trwy: [{{cookiecutter.contact_email}}](mailto:{{cookiecutter.contact_email}}).
 
 # Canllaw cyflym
 
