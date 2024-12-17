@@ -1,0 +1,76 @@
+# Contributing Guidelines
+
+We love contributions! We've compiled this documentation to help you understand our
+contributing guidelines. [If you still have questions, please contact us](mailto:{{cookiecutter.contact_email}}) and
+we'd be happy to help. 
+
+## Getting started
+
+If you are unfamiliar with git and GitHub, check out resources for getting started such as [this guide from GitHub](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account) or [this intro to git in VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git).
+
+If you work in Public Health Wales, you can skip step 1 and clone the repository itself. Other steps should be followed in the same way.
+
+1. **Fork the repository:**
+Start by forking this repository to your own GitHub account.
+
+1. **Clone your fork:**
+Clone the forked repository to your local machine.
+
+1. **Check out a new branch for your changes:**
+Always work on a new branch for your changes. This keeps things clean and organised.
+    ```
+    git checkout -b [branch-name] main
+    ```
+
+1. **Make your changes to the code:**
+Make your changes to the code as you would normally. Run the code locally to check it works.
+
+1. **Commit your changes**
+Once you've made your changes, commit them:
+    ```
+    git add name_of_changed_file
+    # Repeat git add if you've added multiple files
+    git commit -m "Describe your changes"
+    # A good convention for commit messages is to
+    # finish the sentence "This change will [commit message]"
+    # e.g. "Fix bug in error calculation"
+    ```
+
+1. **Push to your fork:**
+Once you've made your changes, push them to your fork on GitHub.
+    ```
+    git push origin [branch-name]
+    ```
+
+1. **Open a pull request:**
+Go to the main repository on GitHub, and you'll see a button to create a new pull request from your fork (or from your branch if you did not fork the repo). Provide a description of your changes. Link to relevant GitHub Issues from the backlog. Submit your pull request and request review from the maintainers. Please make sure to test your changes thoroughly before submitting a pull request. This ensures the integrity and quality of the project.
+
+1. **Respond to changes:**
+Address any requested changes on your branch, and obtain approval from the reviewers to merge.
+
+1. **Merge main into your branch:**
+Merge any changes on `main` into your branch. You can do this by navigating to your branch in the Command Prompt
+and running:
+    ```
+    git fetch origin main
+    git merge origin/main
+    ```
+
+1. **Update the CHANGELOG:**
+Update the [changelog](CHANGELOG_en.md) describing the changes you have made. Follow the template format, which is based on the [keep a changelog](https://keepachangelog.com/en/1.1.0/) project.  
+Use the next version number that will be generated (see next point). 
+
+
+1. **Increase the version number**
+
+1. **Merge your PR:**
+Merge the PR using the button on GitHub.
+
+## Testing
+
+Aim to add tests when adding new functionality. 
+
+## Pre-commit hooks
+
+[Pre-commit hooks](https://pre-commit.com/) are actions which are run automatically, typically
+on each commit, to perform some common set of tasks. You can add pre-commit hooks to improve security. 

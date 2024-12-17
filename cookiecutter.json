@@ -4,5 +4,7 @@
     "project_description": "Brief project description - Disgrifiad byr o'r prosiect",
     "project_team": "Project team name e.g. DKR Data Science - Enw tîm y prosiect e.e. Gwyddor Data",
     "contact_email": "Project contact email address - Cyfeiriad e-bost cyswllt y prosiect",
-    "include_weekly_data_exp_log_template": "1 = Yes-Ie, 0 = No-Na"
+    "python_project": "Python project? - Prosiect Python? 1 = Yes-Ie, 0 = No-Na",
+    "r_project": "R project? - Prosiect R? 1 = Yes-Ie, 0 = No-Na",
+    "include_weekly_data_exp_log_template": "Include weekly data exploration log? - Cynnwys Archwilio Data Wythnosol? 1 = Yes-Ie, 0 = No-Na"
 }
