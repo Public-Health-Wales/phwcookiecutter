@@ -1,0 +1,14 @@
+# This file defines the code owners for this repository.
+# For more information, see https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Mae'r ffeil hon yn diffinio perchnogion y cod ar gyfer y storfa hon.
+# Am ragor o wybodaeth, gweler https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners (applies to all files) / Perchnogion byd-eang (yn berthnasol i bob ffeil)
+* @someone-username @your-org/team-that-owns-this
+
+# Specific directories or files / Cyfeiriaduron neu ffeiliau penodol
+/tests/ @your-org/testing-team
+
+# Example for a specific file / Enghraifft ar gyfer ffeil benodol
+README.md @your-org/team-that-looks-after-README
