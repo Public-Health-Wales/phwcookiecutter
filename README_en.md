@@ -34,6 +34,7 @@ This is a template repo for Python based projects in PHW.
 - Sets up a repo with:
   - Standard README 
   - MIT License (Public Health Wales copyright)
+  - CODEOWNERS file to indicate roles on the repo
   - Standard CONTRIBUTING instructions
   - Suitable folder structure: 
     - src folder containing package. In general, final project code or pipelines should be stored here. 

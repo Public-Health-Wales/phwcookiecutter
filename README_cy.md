@@ -34,7 +34,8 @@ Dyma dempled ystorfa ar gyfer prosiectau Python yn Iechyd Cyhoeddus Cymru (ICC).
 Yn sefydlu ystorfa gyda:
 - README Safonol
 - MIT License (hawlfraint Iechyd Cyhoeddus Cymru)
-- Cyfarwyddiadau CYFRANNU Safonol
+- CODEOWNERS, ffeil i nodi rolau ar y repo
+- Cyfarwyddiadau CONTRIBUTING Safonol
 - Strwythur ffolder addas:
   - ffolder src sy'n cynnwys pecyn. Yn gyffredinol, dylid storio cod neu biblinellau prosiect terfynol yma.
   - ffolder tests ar gyfer profion
