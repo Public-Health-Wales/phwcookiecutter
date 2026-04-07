@@ -24,7 +24,7 @@ Dyma dempled ystorfa ar gyfer prosiectau Python yn Iechyd Cyhoeddus Cymru (ICC).
 - Cwblhewch y ffeil CODEOWNERS gan ddilyn y fformat enghreifftiol o fewn y templed.
 - `git add` ("stage") i greu’r ystorfa. Rydyn ni'n hoffi gwneud hyn â llaw yn VS Code fel y gallwch chi weld y ffeiliau rydych chi'n eu hychwanegu a bod yn gwbl siŵr nad ydych chi'n cyflwyno unrhyw beth nad ydych chi am ei gyflwyno.
 - `git commit` yr holl newidiadau rydych wedi'u hychwanegu. Rydym yn hoffi gwneud hyn o Anogwr Gorchymyn (Command Prompt)/Terfynell, fel y gallwch weld unrhyw negeseuon am y profion yn pasio neu'n methu. Sylwch, os yw'r pre-commit hooks wedi'u gosod, gall lintio (linting) ddatgelu rhai problemau y mae'r hooks  yn eu cywiro'n awtomatig. Os bydd unrhyw un o'r pre-commit hooks yn methu, nid ydych wedi cyflwyno, ac felly bydd angen i chi "stage" unrhyw newidiadau a wneir yn awtomatig a rhoi cynnig arall ar gyflwyno.
-- Gwthiwch i GitHub (creu ystorfa newydd ar GitHub a dilynwch y cyfarwyddiadau i wthio ystorfa bresennol).
+- Gwthiwch i GitHub. I wneud hyn, crëwch repo newydd ar GitHub (botwm 'New repository' ar hafan y repositories ar gyfer sefydliad, neu'r botwm + yng nghornel dde uchaf unrhyw sgrin). Yna, dilynwch y cyfarwyddiadau i wthio repo sy'n bodoli eisoes.
 - Gosodwch amddiffyniad cangen fel na all cyfranwyr wthio'n uniongyrchol i'r brif gangen (`main`). Gallwch ddod o hyd i'r opsiwn hwn yn y gosodiadau ystorfa ar GitHub.
 - Ychwanegwch eich cydweithwyr at yr ystorfa a rhowch lefel briodol o fynediad iddynt. Gallwch ddod o hyd i'r opsiwn hwn yn y gosodiadau ystorfa ar GitHub.
 - Dilynwch y cyfarwyddiadau yn CONTRIBUTING_cy.md i barhau i ddatblygu.

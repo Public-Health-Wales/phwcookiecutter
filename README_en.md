@@ -24,7 +24,7 @@ This is a template repo for Python based projects in PHW.
 - Complete the CODEOWNERS file following example format within the template.
 - `git add` ("stage") the repo set up. We like to do this manually in VS Code so that you can see the files you're adding and be doubly sure you don't commit anything you don't mean to.
 - `git commit` all the changes you have added. We like to do this from Command Prompt/Terminal, so that you can see any messages about the tests passing or failing. Note that if the pre-commit hooks have been set up, linting may reveal some issues which the hooks auto-correct. If any of the pre-commit hooks fail, you have not made a commit, and so you will need to stage any automatically made changes and try the commit a second time. 
-- Push to GitHub (create a new repo on GitHub and follow the instructions to push an existing repo).
+- Push to GitHub. To do this, create a new repo on GitHub ('New repository' button on the repositories homepage for an organisation, or + button in the top right hand corner of any screen). Then, follow the instructions to push an existing repo.
 - Set up branch protection so contributors cannot push directly to the `main` branch. Find this option in repo settings on GitHub.
 - Add your collaborators to the repo with an appropriate level of access. Find this option in repo settings on GitHub. 
 - Follow the instructions in CONTRIBUTING_en.md to continue developing. 
