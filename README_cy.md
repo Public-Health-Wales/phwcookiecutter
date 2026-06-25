@@ -21,9 +21,10 @@ Dyma dempled ystorfa ar gyfer prosiectau Python yn Iechyd Cyhoeddus Cymru (ICC).
 - Gosodwch fersiwn golygadwy o'r pecyn:  `python -m pip install -e .`. Mae golygadwy yn golygu y bydd yn newid wrth i chi wneud diweddariadau i'r cod. Unwaith eto, nodwch ei bod yn arferol gweithio mewn amgylchedd rhithwir wrth osod pecynnau Python.
 - Gosodwch y pre-commit hooks:  `python -m pre_commit install`. Gall y cam hwn fod ychydig yn drafferthus o ran sut mae pethau'n cael eu gosod - rhowch wybod am unrhyw broblemau.
 - Ychwanegwch unrhyw linynnau rydych chi am wirio'r cipluniau (commits) ar eu cyfer i  `.nocommitstrings` (un llinell i bob llinyn, dim dyfynodau). Byddwch yn ofalus i beidio â chyflwyno’r ffeil hon (mae hynny’n cael ei gwmpasu gan y `.gitignore`). Sylwch y gellir diffodd pre-commit hooks neu beidio â’u rhedeg , felly (fel gyda'r pre-commit hook datgeliad cudd), mae hon yn haen ychwanegol o ddiogelwch yn hytrach na rhywbeth y dylid dibynnu arno ynddo'i hun i atal cyfrinachau rhag cael eu cyflwyno.
+- Cwblhewch y ffeil CODEOWNERS gan ddilyn y fformat enghreifftiol o fewn y templed.
 - `git add` ("stage") i greu’r ystorfa. Rydyn ni'n hoffi gwneud hyn â llaw yn VS Code fel y gallwch chi weld y ffeiliau rydych chi'n eu hychwanegu a bod yn gwbl siŵr nad ydych chi'n cyflwyno unrhyw beth nad ydych chi am ei gyflwyno.
 - `git commit` yr holl newidiadau rydych wedi'u hychwanegu. Rydym yn hoffi gwneud hyn o Anogwr Gorchymyn (Command Prompt)/Terfynell, fel y gallwch weld unrhyw negeseuon am y profion yn pasio neu'n methu. Sylwch, os yw'r pre-commit hooks wedi'u gosod, gall lintio (linting) ddatgelu rhai problemau y mae'r hooks  yn eu cywiro'n awtomatig. Os bydd unrhyw un o'r pre-commit hooks yn methu, nid ydych wedi cyflwyno, ac felly bydd angen i chi "stage" unrhyw newidiadau a wneir yn awtomatig a rhoi cynnig arall ar gyflwyno.
-- Gwthiwch i GitHub (creu ystorfa newydd ar GitHub a dilynwch y cyfarwyddiadau i wthio ystorfa bresennol).
+- Gwthiwch i GitHub. I wneud hyn, crëwch repo newydd ar GitHub (botwm 'New repository' ar hafan y repositories ar gyfer sefydliad, neu'r botwm + yng nghornel dde uchaf unrhyw sgrin). Yna, dilynwch y cyfarwyddiadau i wthio repo sy'n bodoli eisoes.
 - Gosodwch amddiffyniad cangen fel na all cyfranwyr wthio'n uniongyrchol i'r brif gangen (`main`). Gallwch ddod o hyd i'r opsiwn hwn yn y gosodiadau ystorfa ar GitHub.
 - Ychwanegwch eich cydweithwyr at yr ystorfa a rhowch lefel briodol o fynediad iddynt. Gallwch ddod o hyd i'r opsiwn hwn yn y gosodiadau ystorfa ar GitHub.
 - Dilynwch y cyfarwyddiadau yn CONTRIBUTING_cy.md i barhau i ddatblygu.
@@ -33,7 +34,8 @@ Dyma dempled ystorfa ar gyfer prosiectau Python yn Iechyd Cyhoeddus Cymru (ICC).
 Yn sefydlu ystorfa gyda:
 - README Safonol
 - MIT License (hawlfraint Iechyd Cyhoeddus Cymru)
-- Cyfarwyddiadau CYFRANNU Safonol
+- CODEOWNERS, ffeil i nodi rolau ar y repo
+- Cyfarwyddiadau CONTRIBUTING Safonol
 - Strwythur ffolder addas:
   - ffolder src sy'n cynnwys pecyn. Yn gyffredinol, dylid storio cod neu biblinellau prosiect terfynol yma.
   - ffolder tests ar gyfer profion
